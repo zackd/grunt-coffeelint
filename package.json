@@ -1,0 +1,40 @@
+{
+  "name": "grunt-coffeelint",
+  "description": "coffeelint task for grunt",
+  "version": "0.1.0",
+  "homepage": "https://github.com/zackd/grunt-coffeelint",
+  "author": {
+    "name": "zackd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zackd/grunt-coffeelint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zackd/grunt-coffeelint/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/zackd/grunt-coffeelint/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "grunt.js",
+  "bin": "bin/grunt-coffeelint",
+  "engines": {
+    "node": "0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "grunt": "~0.3.12",
+    "coffeelint": "~0.4.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.3.12"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
