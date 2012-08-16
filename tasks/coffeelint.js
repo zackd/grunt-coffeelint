@@ -58,7 +58,6 @@ module.exports = function(grunt) {
 
   // Lint source code with Coffeelint.
   grunt.registerHelper('coffeelint', function(src, options, globals, extraMsg) {
-    // JSHint sometimes modifies objects you pass in, so clone them.
     options = grunt.utils._.clone(options);
     globals = grunt.utils._.clone(globals);
     // Enable/disable debugging if option explicitly set.
