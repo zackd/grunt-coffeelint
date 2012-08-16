@@ -84,7 +84,16 @@ module.exports = function(grunt) {
 
       // Iterate over all errors.
       // ... TODO: pretty error display
-
+	/* error format 
+		{
+	    rule :      'Name of the violated rule',
+	    lineNumber: 'Number of the line that caused the violation',
+	    level:      'The severity level of the violated rule',
+	    message:    'Information about the violated rule',
+	    context:    'Optional details about why the rule was violated'
+		}
+	*/
+	
       grunt.log.writeln();
     }
   });
